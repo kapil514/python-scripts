@@ -1,0 +1,18 @@
+Python Pip installation Commands
+
+
+
+
+Download the get-pip.py on the local machine:
+
+Run python get-pip.py ( run as sudo)
+
+python get-pip.py --proxy="[user:passwd@]proxy.server:port"
+pip install fabric --proxy="www-proxy.us.oracle.com:80"
+
+Install module from zip
+
+gunzip -c Fabric-1.10.2.tar.gz | tar xf -
+
+pip freeze  | grep -i fabric ( to know list of modules installed)
+
